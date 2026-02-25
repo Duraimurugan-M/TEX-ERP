@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 240px;      /* start after sidebar */
+  right: 0;
+  height: 60px;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  z-index: 1000;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menuBtn {
+  display: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    left: 0;
+  }
+
+  .menuBtn {
+    display: block;
+    margin-right: 15px;
+    font-size: 22px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+}

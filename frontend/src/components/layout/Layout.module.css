@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+}
+
+.main {
+  margin-left: 240px;
+  width: calc(100% - 240px);
+}
+
+.content {
+  margin-top: 60px;
+  padding: 25px;
+  min-height: calc(100vh - 60px);
+  background: #f1f5f9;
+  overflow-y: auto;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main {
+    margin-left: 0;
+    width: 100%;
+  }
+}
