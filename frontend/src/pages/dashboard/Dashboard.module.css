@@ -1,0 +1,36 @@
+.wrapper {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logoutBtn {
+  padding: 8px 16px;
+  border: none;
+  background-color: #ef4444;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logoutBtn:hover {
+  background-color: #dc2626;
+}
+
+.content {
+  padding: 40px;
+}
